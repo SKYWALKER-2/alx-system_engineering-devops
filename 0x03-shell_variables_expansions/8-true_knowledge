@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((128 + $TRUSKNOWLEDGE))
+export TRUSKNOWLEDGE=1209 | echo $(($TRUSKNOWLEDGE + 128))
